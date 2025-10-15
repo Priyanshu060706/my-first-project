@@ -16,4 +16,5 @@ let nextYearAge = Number(age) + 1;
 // Step 5: Show output in console and on web page
 console.log("Hello " + name + ", next year you will be " + nextYearAge + " years old!");
 document.getElementById("output").innerHTML =
+
   "Hello <b>" + name + "</b>! Next year, you will be <b>" + nextYearAge + "</b> years old.";
